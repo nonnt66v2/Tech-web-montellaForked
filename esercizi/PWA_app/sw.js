@@ -1,7 +1,7 @@
 let cacheName = 'pwa01'
 let filesToCache = [
     'index.html',
-    'css/style.css',
+    'css/css.css',
     'js/main.js'
 ]
 /**
