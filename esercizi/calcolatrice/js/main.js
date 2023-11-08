@@ -1,11 +1,11 @@
 var digit = Array();
 var i = 0;
 
-digit[0] = 0;
+digit[0] = "";
 visualizza();
 let display = document.getElementById("display");
-
 let clear = document.getElementById("clear");
+
 clear.addEventListener("click", () => {
     display.value = null;
     i = 0;
@@ -72,6 +72,5 @@ function operazione(op) {
             digit[j + 4] = totale;
         }
     }
-
     visualizza();
 }
