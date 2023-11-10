@@ -1,9 +1,10 @@
 {
+  "background_color": "white",
+  "display": "standalone",
+  "lang": "en-US",
   "name": "Hello World",
   "short_name": "hello",
-  "lang": "en-US",
   "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "white",
-  "theme_color" : "white"
+  "theme_color": "white",
+  "purpose": "any maskable"
 }
